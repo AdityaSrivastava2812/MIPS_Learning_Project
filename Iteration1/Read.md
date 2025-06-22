@@ -8,6 +8,7 @@ For this iteration, we will consider 3 types of instructions-
 -The instructions for branch (beq).
 
 The instructions format is same as that of MIPS-
+![image](https://github.com/user-attachments/assets/6cd04bf3-dadf-4924-9434-72412055c07b)
 
 
 
@@ -29,6 +30,7 @@ Data Memory: The memory unit that holds the data needed for the proper execution
 
 
 The complete data path will look like-
+![image](https://github.com/user-attachments/assets/03bb3a46-678d-4d06-86e1-ef87d2bad3b0)
 
 
 

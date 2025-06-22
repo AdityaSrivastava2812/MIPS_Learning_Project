@@ -1,6 +1,6 @@
 # RISC Processor Implementation Project
 
-#Overview
+# Overview
 
 This repository aims to implement and document the making of a RISC architecture.  
 This is a learning project, hence we will keep updating it as we learn new things and grow.
@@ -15,12 +15,14 @@ We will also add RTL synthesis and other details as we make progress.
 
 
 **Repository structure**
+```
 RISC_sys/
 ├── Iteration_Docs
 ├── Iteration1, Iteration2...
             ├──All the modules in this iteration(ALU,REG FILE , Read me etc) 
 ├──Images
 └── README.md (for overall projects) 
+```
 
 **Next Steps:**  
 Begin with the single-cycle implementation under iteration1, then proceed to synthesis and pipelining.

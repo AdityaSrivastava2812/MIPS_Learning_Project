@@ -1,6 +1,6 @@
 module alu_control(input [1:0] aluop,
-						 input [5:0] funct,
-						 output reg [3:0] result);
+		   input [5:0] funct,
+		   output reg [3:0] result);
 
 	wire [7:0] ctrl_in = {aluop, funct};
 	

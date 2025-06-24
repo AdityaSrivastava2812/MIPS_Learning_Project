@@ -1,8 +1,8 @@
 module alu (input [3:0] ctrl,
-				input [31:0] in1,
-				input [31:0] in2,
-				output reg [31:0] result,
-				output reg zero);
+	    input [31:0] in1,
+	    input [31:0] in2,
+	    output reg [31:0] result,
+	    output reg zero);
 				
 	always @ (*) begin
 	

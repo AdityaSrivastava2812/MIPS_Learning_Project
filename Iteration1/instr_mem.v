@@ -14,7 +14,7 @@ module instr_mem(
 always @(*) begin
  if(byte_address<1024) begin
 	if(byte_address[1:0]==2'b00) begin // checks divisibility by 4
- 	instruction = memory[address[31:2]]; // convert byte to memory address 
+		instruction = memory[byte_address[31:2]]; // convert byte to memory address 
 			             end
 	 else begin
 		instruction = 0; end // firstly we left this condition unattended but synthesis tool gave unattended latch warning

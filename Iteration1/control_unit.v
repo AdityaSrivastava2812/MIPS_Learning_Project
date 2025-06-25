@@ -1,12 +1,12 @@
 module control_unit(input [5:0] opcode,
-						  output reg regDst,
-						  output reg branch,
-						  output reg memRead,
-						  output reg memToReg,
-						  output reg [1:0] aluop,
-						  output reg memWrite,
-						  output reg alusrc,
-						  output reg regWrite);
+		    output reg regDst,
+		    output reg branch,
+		    output reg memRead,
+		    output reg memToReg,
+		    output reg [1:0] aluop,
+		    output reg memWrite,
+		    output reg alusrc,
+		    output reg regWrite);
 						  
 	reg [8:0] total_control;
 						  

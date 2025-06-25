@@ -126,4 +126,3 @@ case(Write_reg)
   endcase 
   end
 endmodule
-----------

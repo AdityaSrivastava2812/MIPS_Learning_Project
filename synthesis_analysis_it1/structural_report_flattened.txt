@@ -1,0 +1,16 @@
+
+22. Printing statistics.
+
+=== top_module ===
+
+   Number of wires:                  5
+   Number of wire bits:             98
+   Number of public wires:           5
+   Number of public wire bits:      98
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+

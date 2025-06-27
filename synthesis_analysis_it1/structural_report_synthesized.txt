@@ -1,0 +1,150 @@
+
+20. Printing statistics.
+
+=== Register_file ===
+
+   Number of wires:                556
+   Number of wire bits:           5560
+   Number of public wires:          40
+   Number of public wire bits:    1137
+   Number of ports:                  8
+   Number of port bits:            113
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5493
+     $_AND_                       2080
+     $_DFFE_PP_                   1024
+     $_MUX_                         64
+     $_NOT_                        111
+     $_OR_                        2214
+
+=== alu ===
+
+   Number of wires:                307
+   Number of wire bits:           1104
+   Number of public wires:           5
+   Number of public wire bits:     101
+   Number of ports:                  5
+   Number of port bits:            101
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                937
+     $_AND_                        382
+     $_MUX_                         32
+     $_NOT_                         77
+     $_OR_                         320
+     $_XOR_                        126
+
+=== alu_control ===
+
+   Number of wires:                 42
+   Number of wire bits:            116
+   Number of public wires:           4
+   Number of public wire bits:      20
+   Number of ports:                  3
+   Number of port bits:             12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 53
+     $_MUX_                          4
+     $_NOT_                         15
+     $_OR_                          34
+
+=== control_unit ===
+
+   Number of wires:                 30
+   Number of wire bits:             94
+   Number of public wires:          10
+   Number of public wire bits:      24
+   Number of ports:                  9
+   Number of port bits:             15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 34
+     $_MUX_                          6
+     $_NOT_                          9
+     $_OR_                          19
+
+=== data_memory ===
+
+   Number of wires:              24037
+   Number of wire bits:          82911
+   Number of public wires:        1031
+   Number of public wire bits:    8323
+   Number of ports:                  6
+   Number of port bits:             99
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              82730
+     $_AND_                      13741
+     $_DFFE_PP_                   8192
+     $_DLATCH_P_                    32
+     $_MUX_                      57470
+     $_NOT_                        130
+     $_OR_                        3073
+     $_XOR_                         92
+
+=== instr_mem ===
+
+   Number of wires:                 85
+   Number of wire bits:            240
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of ports:                  2
+   Number of port bits:             64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                115
+     $_AND_                         54
+     $_MUX_                          2
+     $_NOT_                         29
+     $_OR_                          30
+
+=== pc ===
+
+   Number of wires:                  4
+   Number of wire bits:             66
+   Number of public wires:           4
+   Number of public wire bits:      66
+   Number of ports:                  4
+   Number of port bits:             66
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 32
+     $_DFF_PP0_                     32
+
+=== top_module ===
+
+   Number of wires:                  5
+   Number of wire bits:             98
+   Number of public wires:           5
+   Number of public wire bits:      98
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+=== design hierarchy ===
+
+   top_module                        1
+
+   Number of wires:                  5
+   Number of wire bits:             98
+   Number of public wires:           5
+   Number of public wire bits:      98
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+

@@ -3,6 +3,7 @@ This document explains about the Forwarding unit and Hazard detection unit being
 **Forwarding Unit Logic**
 
 A) Ex/mem Register to ID/Ex register 
+
 This is needed in a situation where a register being updated in the 1st instruction is needed to be used as an operand in the following instructions.
 For Example-
 ```
@@ -23,6 +24,7 @@ so if forwarded $3=(($2+$3)+$4) but in reality it should have been $3=($4+$0)=$4
 so considering for these two extra conditions the new forwarding logic becomes - Forward if ( EX-mem_rd==ID_ex_(rs or rt) && ( EX-mem_rd != 0 ) && ( EX-mem_write_reg)) 
 
 B) mem/wb Register to ID/Ex register 
+
 This is required where a register being updated in the 1st instruction is needed again to be used as an operand in 3rd instruction.
 example-
 ```
@@ -51,6 +53,7 @@ For now this is the complete logic behind forwarding unit controlling muxA and m
 
 
 **Hazard detection**
+
 It is required because some hazards can not be solved by forwarding alone. More specifically for our used I,R,J type instruction set , Load followed by i type instruction that demands for the 'being loaded' reg in load instruction as an operand can not be solved by forwarding. Why?
 Consider the example-
 ```

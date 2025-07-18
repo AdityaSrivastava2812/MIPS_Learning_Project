@@ -91,7 +91,7 @@ end
 always@(posedge clk)
 if(RegWrite) begin
 case(Write_reg)
-  5'd0: zero<=Data;
+  5'd0: zero<=32'b0;
   5'd1: at<=Data;
   5'd2: v0<=Data;
   5'd3: v1<=Data;

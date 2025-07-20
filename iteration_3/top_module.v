@@ -1,4 +1,4 @@
-module iter3(input clk,
+module top_module(input clk,
              input reset);
 
     // Here we define the top module and connect all the separate components.
